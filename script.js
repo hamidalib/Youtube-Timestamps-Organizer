@@ -10,8 +10,15 @@ let timestampsList = [];
 // Adding time on click functionality
 addTimeBtn.addEventListener("click", function () {
   //   console.log("btn clicked");
-  addTimestampItem(); // Take input -> make object and then -> push into array
-  renderList();
+
+  // check if title input is not empty
+
+  if (titleInputEl.value) {
+    addTimestampItem(); // Take input -> make object and then -> push into array
+    renderList();
+  } else {
+    alert("Title cant be empty");
+  }
 });
 
 function addTimestampItem() {

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Timestamps Manager",
+  "version": "1.0",
+  "description": "The YouTube Timestamps Organizer is a simple and efficient tool designed to help viewers neatly organize and manage video timestamps.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "Assets/16.png",
+      "48": "Assets/48.png",
+      "128": "Assets/128.png"
+    }
+  },
+  "icons": {
+    "16": "Assets/16.png",
+    "48": "Assets/48.png",
+    "128": "Assets/128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
